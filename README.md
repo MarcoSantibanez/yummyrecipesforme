@@ -1,7 +1,7 @@
 # yummyrecipesforme
 In this project I was tasked with analyzing DNS and ICMP traffic in transit using data from a network protocol analyzer tool. To identify which network protocol was utilized in assessment of the incident. 
 
-As a cybersecurity analyst working at a company that specializes in providing IT consultant services. Several customers contacted our company to report that they were not able to access the company website www.yummyrecipesforme .com, and saw the error “destination port unreachable” after waiting for the page to load. 
+As a cybersecurity analyst working at a company that specializes in providing IT consultant services. Several customers contacted our company to report that they were not able to access the company website <www.yummyrecipesforme.com>, and saw the error “destination port unreachable” after waiting for the page to load. 
 
 I was tasked with analyzing the situation and determining which network protocol was affected during this incident. To start, I visited the website and I also received the error “destination port unreachable.” Next, I loaded my network analyzer tool, tcpdump, and load the webpage again. This time, I received a lot of packets in my network analyzer. The analyzer shows that when one sends UDP packets and receives an ICMP response returned to host, the results contained an error message: “udp port 53 unreachable.” 
 
