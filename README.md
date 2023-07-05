@@ -28,5 +28,6 @@ Now that I had captured data packets using a network analyzer tool, it is my job
 This incident, in the meantime, is being handled by security engineers after I and other analysts had reported the issue to our direct supervisor. 
 
 Report: 
+
 ![Screenshot 2023-07-05 105742](https://github.com/MarcoSantibanez/yummyrecipesforme/assets/138132151/becbce25-467b-446d-b105-742d6a0ced53)
 
