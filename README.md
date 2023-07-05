@@ -1,13 +1,13 @@
 # yummyrecipesforme
 In this project I was tasked with analyzing DNS and ICMP traffic in transit using data from a network protocol analyzer tool. To identify which network protocol was utilized in assessment of the incident. 
 
-As a cybersecurity analyst working at a company that specializes in providing IT consultant services. Several customers contacted our company to report that they were not able to access the company website www.yummyrecipesforme.com, and saw the error “destination port unreachable” after waiting for the page to load. 
+As a cybersecurity analyst working at a company that specializes in providing IT consultant services. Several customers contacted our company to report that they were not able to access the company website www.yummyrecipesforme .com, and saw the error “destination port unreachable” after waiting for the page to load. 
 
 I was tasked with analyzing the situation and determining which network protocol was affected during this incident. To start, I visited the website and I also received the error “destination port unreachable.” Next, I loaded my network analyzer tool, tcpdump, and load the webpage again. This time, I received a lot of packets in my network analyzer. The analyzer shows that when one sends UDP packets and receives an ICMP response returned to host, the results contained an error message: “udp port 53 unreachable.” 
 
 In the DNS and ICMP log, I found the following information:
 
-In the first two lines of the log file, I saw the initial outgoing request from my computer to the DNS server requesting the IP address of yummyrecipesforme.com. This request is sent in a UDP packet.
+In the first two lines of the log file, I saw the initial outgoing request from my computer to the DNS server requesting the IP address of yummyrecipesforme .com. This request is sent in a UDP packet.
 
 Next I found timestamps that indicate when the event happened. In the log, this is the first sequence of numbers displayed. For example: 13:24:32.192571. This displays the time 1:24 p.m., 32.192571 seconds.
 
