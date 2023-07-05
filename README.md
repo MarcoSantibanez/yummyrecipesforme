@@ -7,6 +7,10 @@ I was tasked with analyzing the situation and determining which network protocol
 
 In the DNS and ICMP log, I found the following information:
 
+![Screenshot 2023-07-05 103918](https://github.com/MarcoSantibanez/yummyrecipesforme/assets/138132151/51ac626d-5293-4b1a-8214-cacb0e5b3e71)
+
+
+
 In the first two lines of the log file, I saw the initial outgoing request from my computer to the DNS server requesting the IP address of yummyrecipesforme .com. This request is sent in a UDP packet.
 
 Next I found timestamps that indicate when the event happened. In the log, this is the first sequence of numbers displayed. For example: 13:24:32.192571. This displays the time 1:24 p.m., 32.192571 seconds.
@@ -23,4 +27,6 @@ Now that I had captured data packets using a network analyzer tool, it is my job
 
 This incident, in the meantime, is being handled by security engineers after I and other analysts had reported the issue to our direct supervisor. 
 
-~ Attached you will find findings and report. 
+Report: 
+![Screenshot 2023-07-05 105742](https://github.com/MarcoSantibanez/yummyrecipesforme/assets/138132151/becbce25-467b-446d-b105-742d6a0ced53)
+
